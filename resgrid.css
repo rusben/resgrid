@@ -1,16 +1,20 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    border: thin solid black;
 }
 
-.container { padding: 1%; }
+.container { }
+/* clearfix */
 .container:after { content: ""; clear: both; display: table;  }
 
 .row {  }
+/* clearfix */
+.row:after { content: ""; clear: both; display: table;  }
 
-.col { float: left; }
+.l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8, .l9, .l10, .l11, .l12 { float: left; }
 
-.l1 { width: 8.33333333333%; }
+.l1 { width: 8.33333333333%;  }
 .l2 { width: 16.6666666666%; }
 .l3 { width: 25%; }
 .l4 { width: 33.3333333333%; }
@@ -24,4 +28,3 @@
 .l12 { width: 100%; }
 
 .box ul li { border: thin solid #dadada; }
-
