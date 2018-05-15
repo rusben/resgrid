@@ -28,3 +28,10 @@
 .l12 { width: 100%; }
 
 .box ul li { border: thin solid #dadada; }
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8, .l9, .l10, .l11, .l12 { width: 100%; color: red; background-color: green;}
+}
